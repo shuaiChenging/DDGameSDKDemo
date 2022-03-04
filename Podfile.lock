@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GameFrameworkTool (1.0.1):
+  - GameFrameworkTool (1.0.2):
     - AFNetworking (= 4.0.1)
     - IQKeyboardManager (= 6.5.8)
     - JKCategories (= 1.9.3)
@@ -165,7 +165,7 @@ PODS:
   - MJExtension (3.3.0)
 
 DEPENDENCIES:
-  - GameFrameworkTool (~> 1.0.1)
+  - GameFrameworkTool (~> 1.0.2)
 
 SPEC REPOS:
   trunk:
@@ -179,13 +179,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  GameFrameworkTool: 6366b659078a30d2db1a87d6aeb52d8b8e1c9c24
+  GameFrameworkTool: aec06cef0ff32ebd38b26f1a6e69bb7c5b2ff763
   IQKeyboardManager: 1943526a2fa1a6ea24f90c845c274b0e80dd1912
   JKCategories: c995567f04ff98680313f56544e6cb62d3152733
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
 
-PODFILE CHECKSUM: ed3da56f32a918494dd8131bf63dfbe89526a5b2
+PODFILE CHECKSUM: 0853083dd20a4775c84f3ca04c8e1f5d7f27df5d
 
 COCOAPODS: 1.11.2
