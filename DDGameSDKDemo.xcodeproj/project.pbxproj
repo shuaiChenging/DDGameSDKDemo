@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441398C527D1BF7200DBC88B /* LogoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441398C327D1BF7200DBC88B /* LogoutView.m */; };
+		441398C627D1BF7200DBC88B /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441398C427D1BF7200DBC88B /* LoginView.m */; };
 		44EE40C227D0A87E0012B379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40C127D0A87E0012B379 /* AppDelegate.m */; };
-		44EE40C527D0A87E0012B379 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40C427D0A87E0012B379 /* SceneDelegate.m */; };
 		44EE40C827D0A87E0012B379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40C727D0A87E0012B379 /* ViewController.m */; };
 		44EE40CB27D0A87E0012B379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EE40C927D0A87E0012B379 /* Main.storyboard */; };
 		44EE40CD27D0A87F0012B379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EE40CC27D0A87F0012B379 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 		44EE40DD27D0A87F0012B379 /* DDGameSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40DC27D0A87F0012B379 /* DDGameSDKDemoTests.m */; };
 		44EE40E727D0A87F0012B379 /* DDGameSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40E627D0A87F0012B379 /* DDGameSDKDemoUITests.m */; };
 		44EE40E927D0A87F0012B379 /* DDGameSDKDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE40E827D0A87F0012B379 /* DDGameSDKDemoUITestsLaunchTests.m */; };
+		E1E82F13A5A20E8D8F997BDC /* Pods_DDGameSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D687D2301523F35744DC875 /* Pods_DDGameSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441398C127D1BF7200DBC88B /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		441398C227D1BF7200DBC88B /* LogoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutView.h; sourceTree = "<group>"; };
+		441398C327D1BF7200DBC88B /* LogoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutView.m; sourceTree = "<group>"; };
+		441398C427D1BF7200DBC88B /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		44EE40BD27D0A87E0012B379 /* DDGameSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDGameSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EE40C027D0A87E0012B379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44EE40C127D0A87E0012B379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44EE40C327D0A87E0012B379 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		44EE40C427D0A87E0012B379 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		44EE40C627D0A87E0012B379 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44EE40C727D0A87E0012B379 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44EE40CA27D0A87E0012B379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,9 @@
 		44EE40E227D0A87F0012B379 /* DDGameSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDGameSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EE40E627D0A87F0012B379 /* DDGameSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDGameSDKDemoUITests.m; sourceTree = "<group>"; };
 		44EE40E827D0A87F0012B379 /* DDGameSDKDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDGameSDKDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5C36B65EE291D17EEEF68369 /* Pods-DDGameSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDGameSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5D687D2301523F35744DC875 /* Pods_DDGameSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDGameSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69FC6314B2D29FCCB3E483A /* Pods-DDGameSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDGameSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E82F13A5A20E8D8F997BDC /* Pods_DDGameSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		441398C027D1BF7200DBC88B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441398C127D1BF7200DBC88B /* LoginView.h */,
+				441398C227D1BF7200DBC88B /* LogoutView.h */,
+				441398C327D1BF7200DBC88B /* LogoutView.m */,
+				441398C427D1BF7200DBC88B /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		44EE40B427D0A87E0012B379 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +107,8 @@
 				44EE40DB27D0A87F0012B379 /* DDGameSDKDemoTests */,
 				44EE40E527D0A87F0012B379 /* DDGameSDKDemoUITests */,
 				44EE40BE27D0A87E0012B379 /* Products */,
+				AB6AFA4B027DFEE46881BD11 /* Pods */,
+				CDEDC7A066F5F68F0D3DE2ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +125,9 @@
 		44EE40BF27D0A87E0012B379 /* DDGameSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				441398C027D1BF7200DBC88B /* View */,
 				44EE40C027D0A87E0012B379 /* AppDelegate.h */,
 				44EE40C127D0A87E0012B379 /* AppDelegate.m */,
-				44EE40C327D0A87E0012B379 /* SceneDelegate.h */,
-				44EE40C427D0A87E0012B379 /* SceneDelegate.m */,
 				44EE40C627D0A87E0012B379 /* ViewController.h */,
 				44EE40C727D0A87E0012B379 /* ViewController.m */,
 				44EE40C927D0A87E0012B379 /* Main.storyboard */,
@@ -136,6 +156,23 @@
 			path = DDGameSDKDemoUITests;
 			sourceTree = "<group>";
 		};
+		AB6AFA4B027DFEE46881BD11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C36B65EE291D17EEEF68369 /* Pods-DDGameSDKDemo.debug.xcconfig */,
+				A69FC6314B2D29FCCB3E483A /* Pods-DDGameSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDEDC7A066F5F68F0D3DE2ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D687D2301523F35744DC875 /* Pods_DDGameSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44EE40EC27D0A87F0012B379 /* Build configuration list for PBXNativeTarget "DDGameSDKDemo" */;
 			buildPhases = (
+				29A9CB1D37001321BC08187F /* [CP] Check Pods Manifest.lock */,
 				44EE40B927D0A87E0012B379 /* Sources */,
 				44EE40BA27D0A87E0012B379 /* Frameworks */,
 				44EE40BB27D0A87E0012B379 /* Resources */,
+				792BF0F1CED4C0FD8863217B /* [CP] Embed Pods Frameworks */,
+				A59428546310F346B5C47D57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,15 +301,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29A9CB1D37001321BC08187F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDGameSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792BF0F1CED4C0FD8863217B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59428546310F346B5C47D57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDGameSDKDemo/Pods-DDGameSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44EE40B927D0A87E0012B379 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441398C527D1BF7200DBC88B /* LogoutView.m in Sources */,
 				44EE40C827D0A87E0012B379 /* ViewController.m in Sources */,
 				44EE40C227D0A87E0012B379 /* AppDelegate.m in Sources */,
+				441398C627D1BF7200DBC88B /* LoginView.m in Sources */,
 				44EE40D327D0A87F0012B379 /* main.m in Sources */,
-				44EE40C527D0A87E0012B379 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +539,7 @@
 		};
 		44EE40ED27D0A87F0012B379 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C36B65EE291D17EEEF68369 /* Pods-DDGameSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +567,7 @@
 		};
 		44EE40EE27D0A87F0012B379 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69FC6314B2D29FCCB3E483A /* Pods-DDGameSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

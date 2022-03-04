@@ -6,7 +6,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import <DDGameSDK/DDGameManage.h>
 @interface AppDelegate ()
 
 @end
@@ -16,24 +17,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SDKConfig *config = [SDKConfig new];
+    config.appID = @"13101";
+    config.appKey = @"23ba34ef748fd0aaae234035274e82d4";
+    config.sdkTag = @"tag1310100000";
+    [DDGameManage gameInitWithConfig:config];
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [ViewController new];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    /// 从支付返回处理
+    [DDGameManage callBackHandle];
+    return YES;
 }
 
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    [DDGameManage callBackHandle];
 }
 
 
